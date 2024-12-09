@@ -8,7 +8,6 @@ export default function Page() {
   return (
     <>
       <ProductDetails />
-      {/* <TabsSection/> */}
       <ReviewSection/>
       <ProductGrid title="YOU MIGHT ALSO LIKE" products={TOP_SELLING} />
 
